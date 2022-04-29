@@ -6,9 +6,11 @@ authors = ["Vasker <v92prog@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-Django = "3.1.14"
+Django = "3.2.13"
 Pillow = "^9.1.0"
 djangorestframework = "^3.13.1"
+psycopg2 = "^2.9.3"
+django-ckeditor = "^6.4.0"
 
 [tool.poetry.dev-dependencies]
 

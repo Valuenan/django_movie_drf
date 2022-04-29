@@ -1,0 +1,524 @@
+[
+  {
+    "model": "movies.category",
+    "pk": 1,
+    "fields": {
+      "name": "Фильмы",
+      "description": "Все фильмы мира",
+      "url": "movie"
+    }
+  },
+  {
+    "model": "movies.category",
+    "pk": 2,
+    "fields": {
+      "name": "Cериалы",
+      "description": "Все cериалы мира",
+      "url": "serials"
+    }
+  },
+  {
+    "model": "movies.category",
+    "pk": 3,
+    "fields": {
+      "name": "Мультфильмы",
+      "description": "Все мультфильмы мира",
+      "url": "cartoons"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 1,
+    "fields": {
+      "name": "Дени Вильнёв",
+      "age": 53,
+      "description": "Франко-канадский кинорежиссёр и сценарист.\r\n\r\nНачальное образование получил в семинарии Св. Иосифа в Труа-Ривьер. Затем продолжил обучение в колледже. После этого окончил кинематографическое отделение Университета Квебека в Монреале.\r\n\r\nВ начале своей карьеры он выиграл молодёжный киноконкурс «Радио-Канада» в 1990—1991 годах. Трижды завоёвывал высшую национальную кинопремию Канады «Джини» за лучшую режиссуру: «Водоворот» (2001), «Политех» (2010) и «Пожары» (2011). В 2010 году его фильм «Пожары» представлял Канаду на 83-й церемонии вручения наград Оскар в категории «Лучший фильм на иностранном языке». В январе 2011 году Дени Вильнёв был включён в список 10 самых многообещающих молодых режиссёров по мнению еженедельника Variety",
+      "image": "actors/0_329.jpg"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 2,
+    "fields": {
+      "name": "Тимоти Шаламе",
+      "age": 25,
+      "description": "Тимоти Шаламе родился 27 декабря 1995 года в семье американки с русскими корнями и француза. В юности часто бывал во Франции и отлично выучил французский язык. Во время обучения в школе считался одним из лучших учеников и стремился ко всему подходить креативно – например, однажды сделал проект в стиле рэп.\r\n\r\nНачал сниматься с 2008 года. Тимоти заметили после роли в сериале «Родина», отмеченной премиями. 2014 год был для него ознаменован участием в фильме «Интерстеллар», а спустя три года он сыграл в фильме «Зови меня своим именем», за роль в котором был номинирован на «Оскар». Сейчас активно снимается в сериалах и фильмах знаменитых режиссеров, таких как Дени Вильнёв, Уэс Андерсон и др.",
+      "image": "actors/3154303.jpg"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 3,
+    "fields": {
+      "name": "Ребекка Фергюсон",
+      "age": 37,
+      "description": "Ребекка Фергюсон родилась в октябре 1983 года в Стокгольме. Юная актриса увлекалась балетом, музыкой, изучением языком. В 13 лет грациозную и хрупкую Ребекку заметили фотографы и предложили работу фотомодели. Некоторое время будущая актриса снималась для глянцевых журналов. Несмотря на ошеломляющий успех в модельном бизнесе, она выбрала актерскую деятельность.\r\n\r\nВ 1999 году актриса снялась в картине «Новые времена». Роль в этом фильме подарила актрисе ошеломляющую популярность.",
+      "image": "actors/0272581.jpg"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 4,
+    "fields": {
+      "name": "Оскар Айзек",
+      "age": 42,
+      "description": "Оскар Айзек — американский актёр и музыкант гватемальского происхождения. Айзек родился 9 марта 1979 года. Дебют Оскара в кино пришелся на 1996 год в драме «Жестокий город». За свою карьеру в кино снимался в таких фильмах, как «Совокупность лжи», «Агора», «Драйв», «Запрещенный приём», «Эволюция Борна», «Звёздные войны: Пробуждение силы», «Люди Икс: Апокалипсис», «Субурбикон», «Ван Гог. На пороге вечности», «Человек-паук: Через вселенные» и в других.",
+      "image": "actors/1464645-1629173.jpg"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 5,
+    "fields": {
+      "name": "Джош Бролин",
+      "age": 53,
+      "description": "Джош родился в Лос-Анджелесе 12 февраля 1968 года. Будучи сыном актера Джеймса Бролина и пасынком актрисы Барбары Стрейзенд, он унаследовал любовь к актерству – в школе выступал в спектаклях, затем у Стеллы Адлер обучался актерскому мастерству.\r\n\r\nВпервые появился на телеэкранах в кинофильме «Балбесы» (1985). Слава к нему пришла гораздо позже – в 2007, благодаря съемкам в фильме «Старикам здесь не место». Через год сыграл роль в киноленте «Харви Милк», был номинирован на премию «Оскар».",
+      "image": "actors/1459525-2116068.jpg"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 6,
+    "fields": {
+      "name": "Джейсон Момоа",
+      "age": 41,
+      "description": "Джейсон Момоа — американский актёр. Родился 1 августа 1979 года в Гонолулу, Гавайи. Будучи ещё студентом, он попался на глаза всемирно известному дизайнеру Такэо, который вскоре пригласил юношу к себе в качестве модели. С 1999 года началась его актёрская карьера. Момоа снялся в десятом-одиннадцатом сезонах «Спасателей Малибу». Также получил роль в фильме «Каникулы Джонсонов» и телесериале «Звёздные врата: Атлантида». В 2010 вошёл в актёрский состав сериала «Игра престолов», что позволило ему завоевать ещё большую популярность. Сегодня на счету Джейсона Момоа немало успешных работ, среди которых «Бэтмен против Супермена: На заре справедливости», «Лига справедливости», «Аквамен» и другие.",
+      "image": "actors/1571952-1612559.jpg"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 7,
+    "fields": {
+      "name": "Рубен Фляйшер",
+      "age": 39,
+      "description": "-",
+      "image": "actors/IHZZYoapOvZlaCz.webp"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 8,
+    "fields": {
+      "name": "Том Холланд",
+      "age": 25,
+      "description": "-",
+      "image": "actors/280x420.webp"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 9,
+    "fields": {
+      "name": "Шон Леви",
+      "age": 53,
+      "description": "-",
+      "image": "actors/-IpwZEYxPDqH6kX.jfif"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 10,
+    "fields": {
+      "name": "Райан Рейнольдс",
+      "age": 45,
+      "description": "-",
+      "image": "actors/280x420_mDopMGO.webp"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 11,
+    "fields": {
+      "name": "Джоди Комер",
+      "age": 29,
+      "description": "-",
+      "image": "actors/280x420_1.webp"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 1,
+    "fields": {
+      "name": "драма",
+      "description": "драма",
+      "url": "drama_film"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 2,
+    "fields": {
+      "name": "приключения",
+      "description": "приключения",
+      "url": "adventures_film"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 3,
+    "fields": {
+      "name": "фантастика",
+      "description": "фантастика",
+      "url": "fantasy_film"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 4,
+    "fields": {
+      "name": "боевик",
+      "description": "-",
+      "url": "action_movie"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 5,
+    "fields": {
+      "name": "мелодрама",
+      "description": "-",
+      "url": "melodrama"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 6,
+    "fields": {
+      "name": "комедия",
+      "description": "-",
+      "url": "comedy"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1,
+    "fields": {
+      "title": "Дюна (фильм, 2021)",
+      "tagline": "-",
+      "description": "<p><strong>Влиятельную семью Атрейдесов во главе с графом Лето (Оскар Айзек) отправляют на Арракис &mdash; следить за добычей спайса, самого важного вещества во Вселенной. Раньше эта планета принадлежала воинственным Харконненам, которые терроризировали местный народ фременов и оставили после себя только еле работающую технику. Они не намерены оставлять Арракис за Атрейдесами &mdash; уж слишком много денег приносят местные песчаные дюны &mdash; и готовят полномасштабную войну под предводительством барона Владимира Харконнена (Стеллан Скарсгард) и Глоссу &laquo;Зверя&raquo; Раббана (Дэйв Батиста). В это время наследник дома Атрейдесов Пол (Тимоти Шаламе) пытается разобраться в себе. Его мать (Ребекка Фергюсон), воспитанница ордена Бене Гессерит, обучает сына силе &laquo;Голоса&raquo; (способности повелевать другими людьми) и убеждает, что тот &mdash; Муад&rsquo;Диб, местный Мессия. В своих снах Пол видит странную девушку из племени фременов (Зендея) и образы из, кажется, не слишком весёлого будущего. А в свободное от галлюцинаций время учится сражаться под надзором воина Гурни Халлека (Джош Бролин) и, как и все, готовится к неизбежному вторжению врага.</strong></p>\r\n\r\n<p><strong><iframe frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/DOlTmIhEsg0\" width=\"640\"></iframe></strong></p>",
+      "poster": "movies/132926.jpg",
+      "year": 2021,
+      "country": "США",
+      "world_premiere": "2021-09-15",
+      "budget": 165000000,
+      "fees_in_usa": 200670241,
+      "fees_in_world": 400670241,
+      "category": 1,
+      "url": "dune_2021",
+      "draft": false,
+      "directors": [
+        1
+      ],
+      "actors": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "genres": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 2,
+    "fields": {
+      "title": "Анчартед: На картах не значится (2022)",
+      "tagline": "-",
+      "description": "<p>Два искателя приключений Нейтан Дрейк и&nbsp;Виктор Салливан по&nbsp;прозвищу Салли отправляются на&nbsp;поиски величайшего сокровища мира. Кроме того, они&nbsp;надеются найти улики, которые приведут их&nbsp;к давно потерянному брату Нейтана.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/i0XvzdqAb9k\" width=\"640\"></iframe></p>",
+      "poster": "movies/134762.jpg",
+      "year": 2022,
+      "country": "США, Испания",
+      "world_premiere": "2022-02-08",
+      "budget": 120000000,
+      "fees_in_usa": 144986000,
+      "fees_in_world": 389186000,
+      "category": 1,
+      "url": "unchated",
+      "draft": false,
+      "directors": [
+        7
+      ],
+      "actors": [
+        8
+      ],
+      "genres": [
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 3,
+    "fields": {
+      "title": "Главный герой",
+      "tagline": "«Жизнь слишком коротка, чтобы быть на вторых ролях»",
+      "description": "<p>Парень по&nbsp;имени Парень счастлив. Он&nbsp;живет в&nbsp;лучшем в&nbsp;мире городе Городе, работает на&nbsp;лучшей в&nbsp;мире работе в&nbsp;Банке и&nbsp;дружит с&nbsp;охранником по&nbsp;имени Приятель. И&nbsp;его совершенно не&nbsp;волнует, что&nbsp;Банк грабят по&nbsp;нескольку раз&nbsp;на дню, а&nbsp;улицы Города напоминают зону военных действий. Единственное, чего Парню не&nbsp;хватает для&nbsp;полного счастья&nbsp;&mdash;&nbsp;идеальной девушки, к&nbsp;которой у&nbsp;него имеется точный список требований. И&nbsp;вот однажды он&nbsp;видит на&nbsp;улице красотку, точь-в-точь как&nbsp;в его&nbsp;мечтах. Эта&nbsp;встреча изменит не&nbsp;только нашего главного героя, но&nbsp;и перевернет весь известный ему&nbsp;мир.</p>\r\n\r\n<p><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/wnS4A5-vtFA\" width=\"640\"></iframe></p>",
+      "poster": "movies/19021-glavnyy-geroy_400x600.webp",
+      "year": 2021,
+      "country": "США",
+      "world_premiere": "2021-08-10",
+      "budget": 120000000,
+      "fees_in_usa": 121626598,
+      "fees_in_world": 331526598,
+      "category": 1,
+      "url": "Free_Guy",
+      "draft": false,
+      "directors": [
+        9
+      ],
+      "actors": [
+        10,
+        11
+      ],
+      "genres": [
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "model": "movies.movieshots",
+    "pk": 1,
+    "fields": {
+      "title": "Dune 2021 k1",
+      "description": "Dune 2021",
+      "image": "movie_shots/29944375_800.jpg",
+      "movie": 1
+    }
+  },
+  {
+    "model": "movies.movieshots",
+    "pk": 2,
+    "fields": {
+      "title": "Dune 2021 k2",
+      "description": "Dune 2021",
+      "image": "movie_shots/dune_2520x1460.png",
+      "movie": 1
+    }
+  },
+  {
+    "model": "movies.movieshots",
+    "pk": 3,
+    "fields": {
+      "title": "Dune 2021 k3",
+      "description": "Dune 2021",
+      "image": "movie_shots/dune-zendaya.webp",
+      "movie": 1
+    }
+  },
+  {
+    "model": "movies.movieshots",
+    "pk": 4,
+    "fields": {
+      "title": "Dune 2021 k4",
+      "description": "Dune 2021",
+      "image": "movie_shots/20dune-review1-mobileMasterAt3x.jpg",
+      "movie": 1
+    }
+  },
+  {
+    "model": "movies.movieshots",
+    "pk": 5,
+    "fields": {
+      "title": "unchated_1",
+      "description": "-",
+      "image": "movie_shots/ac630742990ae1e956971c80cada947d.jpeg",
+      "movie": 2
+    }
+  },
+  {
+    "model": "movies.movieshots",
+    "pk": 6,
+    "fields": {
+      "title": "unchated_2",
+      "description": "-",
+      "image": "movie_shots/bp.jpeg",
+      "movie": 2
+    }
+  },
+  {
+    "model": "movies.movieshots",
+    "pk": 7,
+    "fields": {
+      "title": "unchated_3",
+      "description": "-",
+      "image": "movie_shots/cb9e8d9554544b5493b4ed356f937ef6.jpg",
+      "movie": 2
+    }
+  },
+  {
+    "model": "movies.movieshots",
+    "pk": 8,
+    "fields": {
+      "title": "unchated_4",
+      "description": "-",
+      "image": "movie_shots/uncharted_6.jpg",
+      "movie": 2
+    }
+  },
+  {
+    "model": "movies.movieshots",
+    "pk": 9,
+    "fields": {
+      "title": "Free_Guy_1",
+      "description": "-",
+      "image": "movie_shots/1005x558_2021081113341715dec7cb15.jpg",
+      "movie": 3
+    }
+  },
+  {
+    "model": "movies.movieshots",
+    "pk": 10,
+    "fields": {
+      "title": "Free_Guy_2",
+      "description": "-",
+      "image": "movie_shots/55684c4c1549f8b2a92978eafb4f102e.jpg",
+      "movie": 3
+    }
+  },
+  {
+    "model": "movies.movieshots",
+    "pk": 11,
+    "fields": {
+      "title": "Free_Guy_3",
+      "description": "-",
+      "image": "movie_shots/start.jpg",
+      "movie": 3
+    }
+  },
+  {
+    "model": "movies.ratingstar",
+    "pk": 2,
+    "fields": {
+      "value": 1
+    }
+  },
+  {
+    "model": "movies.ratingstar",
+    "pk": 3,
+    "fields": {
+      "value": 2
+    }
+  },
+  {
+    "model": "movies.ratingstar",
+    "pk": 4,
+    "fields": {
+      "value": 3
+    }
+  },
+  {
+    "model": "movies.ratingstar",
+    "pk": 5,
+    "fields": {
+      "value": 4
+    }
+  },
+  {
+    "model": "movies.ratingstar",
+    "pk": 6,
+    "fields": {
+      "value": 5
+    }
+  },
+  {
+    "model": "movies.rating",
+    "pk": 1,
+    "fields": {
+      "ip": "127.0.0.1",
+      "star": 5,
+      "movie": 2
+    }
+  },
+  {
+    "model": "movies.rating",
+    "pk": 2,
+    "fields": {
+      "ip": "127.0.0.1",
+      "star": 6,
+      "movie": 1
+    }
+  },
+  {
+    "model": "movies.rating",
+    "pk": 3,
+    "fields": {
+      "ip": "192.168.1.1",
+      "star": 4,
+      "movie": 2
+    }
+  },
+  {
+    "model": "movies.rating",
+    "pk": 4,
+    "fields": {
+      "ip": "172.20.10.2",
+      "star": 5,
+      "movie": 2
+    }
+  },
+  {
+    "model": "movies.review",
+    "pk": 1,
+    "fields": {
+      "email": "v92prog@gmail.com",
+      "name": "Василий",
+      "text": "Первый",
+      "parent": null,
+      "movie": 1
+    }
+  },
+  {
+    "model": "movies.review",
+    "pk": 2,
+    "fields": {
+      "email": "v92prog@gmail.com",
+      "name": "Иван",
+      "text": "Воторой",
+      "parent": null,
+      "movie": 1
+    }
+  },
+  {
+    "model": "movies.review",
+    "pk": 5,
+    "fields": {
+      "email": "v92prog@gmail.com",
+      "name": "Сергей",
+      "text": "Василий, ответ на отзыв",
+      "parent": 1,
+      "movie": 1
+    }
+  },
+  {
+    "model": "movies.review",
+    "pk": 6,
+    "fields": {
+      "email": "v92prog@gmail.com",
+      "name": "Василий",
+      "text": "Иван, ответ Ивану",
+      "parent": 2,
+      "movie": 1
+    }
+  },
+  {
+    "model": "movies.review",
+    "pk": 7,
+    "fields": {
+      "email": "test@gmail.com",
+      "name": "test",
+      "text": "test",
+      "parent": null,
+      "movie": 3
+    }
+  }
+]
