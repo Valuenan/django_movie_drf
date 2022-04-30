@@ -397,35 +397,35 @@
   },
   {
     "model": "movies.ratingstar",
-    "pk": 2,
+    "pk": 1,
     "fields": {
       "value": 1
     }
   },
   {
     "model": "movies.ratingstar",
-    "pk": 3,
+    "pk": 2,
     "fields": {
       "value": 2
     }
   },
   {
     "model": "movies.ratingstar",
-    "pk": 4,
+    "pk": 3,
     "fields": {
       "value": 3
     }
   },
   {
     "model": "movies.ratingstar",
-    "pk": 5,
+    "pk": 4,
     "fields": {
       "value": 4
     }
   },
   {
     "model": "movies.ratingstar",
-    "pk": 6,
+    "pk": 5,
     "fields": {
       "value": 5
     }
