@@ -39,6 +39,17 @@ Django = ">=3.2"
 django-js-asset = ">=1.2.2"
 
 [[package]]
+name = "django-filter"
+version = "21.1"
+description = "Django-filter is a reusable Django application for allowing users to filter querysets dynamically."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+Django = ">=2.2"
+
+[[package]]
 name = "django-js-asset"
 version = "2.0.0"
 description = "script tag with additional attributes for django.forms.Media"
@@ -103,7 +114,7 @@ python-versions = ">=3.5"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "0ca71fb850f3605cd63b0f7b8e68bbd7ed180194df36f70aaf2dbe9e54793b9b"
+content-hash = "b3c837d9e9ac1b92680728b22d1d016e4089a34b13b37169a96f9e0e455ca265"
 
 [metadata.files]
 asgiref = [
@@ -117,6 +128,10 @@ django = [
 django-ckeditor = [
     {file = "django-ckeditor-6.4.0.tar.gz", hash = "sha256:30b7d1d8cfa37524f9283ccc0dbb86f98edc952b47d38abbccfda21f966f185d"},
     {file = "django_ckeditor-6.4.0-py3-none-any.whl", hash = "sha256:b1755e1e654c72383f8682de86a98b7ede144de36d82f3566ad45da8f7aa5185"},
+]
+django-filter = [
+    {file = "django-filter-21.1.tar.gz", hash = "sha256:632a251fa8f1aadb4b8cceff932bb52fe2f826dd7dfe7f3eac40e5c463d6836e"},
+    {file = "django_filter-21.1-py3-none-any.whl", hash = "sha256:f4a6737a30104c98d2e2a5fb93043f36dd7978e0c7ddc92f5998e85433ea5063"},
 ]
 django-js-asset = [
     {file = "django_js_asset-2.0.0-py3-none-any.whl", hash = "sha256:86f9f300d682537ddaf0487dc2ab356581b8f50c069bdba91d334a46e449f923"},

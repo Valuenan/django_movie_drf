@@ -11,6 +11,7 @@ Pillow = "^9.1.0"
 djangorestframework = "^3.13.1"
 psycopg2 = "^2.9.3"
 django-ckeditor = "^6.4.0"
+django-filter = "^21.1"
 
 [tool.poetry.dev-dependencies]
 
