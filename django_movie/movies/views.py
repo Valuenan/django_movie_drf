@@ -11,7 +11,7 @@ from .serializers import (
     ActorsListSerializer,
     ActorsDetailSerializer,
 )
-from .service import get_client_ip, MovieFilter
+from .service import get_client_ip, MovieFilter, PaginationMovies
 
 
 class MovieListView(generics.ListAPIView):
@@ -20,6 +20,7 @@ class MovieListView(generics.ListAPIView):
     filter_backends = (DjangoFilterBackend,)
     filterset_class = MovieFilter
     permission_classes = [permissions.IsAuthenticated]
+    pagination_class = PaginationMovies
 
     def get_queryset(self):
         movies = Movie.objects.filter(draft=False).annotate(
