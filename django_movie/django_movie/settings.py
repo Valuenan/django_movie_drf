@@ -14,7 +14,6 @@ from datetime import timedelta
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-from django_movie.django_movie.logins import EMAIL_USER, EMAIL_PASS
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -44,6 +43,7 @@ INSTALLED_APPS = [
     'ckeditor_uploader',
     'django_filters',
     'djoser',
+    'drf_yasg',
 
     'movies.apps.MoviesConfig',
 ]
